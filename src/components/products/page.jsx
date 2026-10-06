@@ -32,32 +32,32 @@ const inter = Inter_Tight({ subsets: ['latin'], display: 'swap', weight: ['400',
 /* ------------------------------------------------------------------ */
 /*  CONTENT                                                             */
 /* ------------------------------------------------------------------ */
-const HEADING = 'WORDS.';
+const HEADING = 'WORK.';
 
 // w = card width in vw, a = height / width, kind = placeholder artwork style
 const CARDS = [
-    { title: 'Ibiza Off-Season', href: '#ibiza', img: '', w: 0.145, a: 1.0, bg: ['#eef0f3', '#aab4bd'], fg: '#c98f6b', kind: 'figure' },
-    { title: 'Tolu Arokodare', href: '#tolu', img: '', w: 0.155, a: 1.12, bg: ['#7a4630', '#24100a'], fg: '#2f6fb3', kind: 'figure' },
-    { title: 'Formula 1', href: '#f1', img: '', w: 0.142, a: 1.28, bg: ['#27705d', '#0f2b2a'], fg: '#e7d44a', kind: 'figure' },
-    { title: 'Adidas x Tzolis', href: '#adidas', img: '', w: 0.128, a: 1.45, bg: ['#8a8c8f', '#3a3c3f'], fg: '#16181a', kind: 'figure' },
-    { title: 'Tomorrowland x Belgian Tennis', href: '#tomorrowland', img: '', w: 0.15, a: 1.15, bg: ['#050505', '#101010'], fg: '#ededed', kind: 'figure' },
-    { title: 'Manchester United', href: '#manutd', img: '', w: 0.15, a: 0.98, bg: ['#c8202b', '#6e0b14'], fg: '#1a1a1a', kind: 'figure' },
-    { title: 'Skechers Football', href: '#skechers', img: '', w: 0.12, a: 1.32, bg: ['#7fb2dd', '#3d7a3d'], fg: '#1c1c1c', kind: 'figure' },
-    { title: 'Legia Warsaw', href: '#legia', img: '', w: 0.115, a: 1.18, bg: ['#ff7a2a', '#7d1a0a'], fg: '#ffd7a0', kind: 'glow' },
-    { title: '125 Years of AFC Ajax', href: '#ajax', img: '', w: 0.095, a: 1.0, bg: ['#c9b7a4', '#7a6a5c'], fg: '#e8e8e6', kind: 'figure' },
-    { title: 'Westkurve', href: '#westkurve', img: '', w: 0.095, a: 1.05, bg: ['#47b6c4', '#1f5a7a'], fg: '#e9f6f8', kind: 'blocks' },
-    { title: 'NOVA x Beertjes', href: '#nova', img: '', w: 0.075, a: 1.3, bg: ['#5a7a4a', '#232b20'], fg: '#8a5cc2', kind: 'figure' },
-    { title: 'Como 1907', href: '#como', img: '', w: 0.085, a: 1.2, bg: ['#bfd2dc', '#4c6f86'], fg: '#1c2e3d', kind: 'figure' },
-    { title: 'PSG', href: '#psg', img: '', w: 0.09, a: 0.82, bg: ['#0f4b9a', '#08224a'], fg: '#d9322f', kind: 'blocks' },
-    { title: 'Belgium', href: '#belgium', img: '', w: 0.085, a: 1.25, bg: ['#d11f2e', '#7a0f18'], fg: '#f2c230', kind: 'figure' },
-    { title: 'Court Side', href: '#court', img: '', w: 0.1, a: 0.82, bg: ['#0a0f1c', '#0c2a52'], fg: '#e8d2b4', kind: 'figure' },
-    { title: 'Centre Court', href: '#centre', img: '', w: 0.095, a: 0.95, bg: ['#7a2a1e', '#2c0f0a'], fg: '#efe7d9', kind: 'figure' },
-    { title: 'Matchday Crew', href: '#crew', img: '', w: 0.11, a: 0.7, bg: ['#2457b5', '#111c3d'], fg: '#f1c93b', kind: 'figure' },
-    { title: 'The Terrace', href: '#terrace', img: '', w: 0.09, a: 1.4, bg: ['#e9e4dd', '#7d2a2a'], fg: '#171717', kind: 'figure' },
-    { title: 'Kit Drop 24', href: '#kit', img: '', w: 0.115, a: 1.2, bg: ['#f2f2f0', '#c7c9cc'], fg: '#e33a3a', kind: 'figure' },
-    { title: 'Night Game', href: '#night', img: '', w: 0.1, a: 1.1, bg: ['#12141f', '#2b1e44'], fg: '#ff5d8f', kind: 'glow' },
-    { title: 'Pitch Side', href: '#pitch', img: '', w: 0.105, a: 0.9, bg: ['#4f9b4a', '#1f4a2a'], fg: '#f4f4f4', kind: 'figure' },
-    { title: 'Studio Series', href: '#studio', img: '', w: 0.115, a: 1.25, bg: ['#d8d2c6', '#8f8574'], fg: '#2a2a2a', kind: 'figure' },
+    { title: 'Ibiza Off-Season', href: '#ibiza', img: '/assets/works/Satoru Gojo_.jpg', w: 0.145, a: 1.0, bg: ['#eef0f3', '#aab4bd'], fg: '#c98f6b', kind: 'figure' },
+    { title: 'Tolu Arokodare', href: '#tolu', img: '/assets/works/1.jpg', w: 0.155, a: 1.12, bg: ['#7a4630', '#24100a'], fg: '#2f6fb3', kind: 'figure' },
+    { title: 'Formula 1', href: '#f1', img: '/assets/works/@m3rshy.jpg', w: 0.142, a: 1.28, bg: ['#27705d', '#0f2b2a'], fg: '#e7d44a', kind: 'figure' },
+    { title: 'Adidas x Tzolis', href: '#adidas', img: '/assets/works/2.jpg', w: 0.128, a: 1.45, bg: ['#8a8c8f', '#3a3c3f'], fg: '#16181a', kind: 'figure' },
+    { title: 'Tomorrowland x Belgian Tennis', href: '#tomorrowland', img: "/assets/works/The Limitless Awoken_ Satoru Gojo's Six Eyes.jpg", w: 0.15, a: 1.15, bg: ['#050505', '#101010'], fg: '#ededed', kind: 'figure' },
+    { title: 'Manchester United', href: '#manutd', img: '/assets/works/3.jpg', w: 0.15, a: 0.98, bg: ['#c8202b', '#6e0b14'], fg: '#1a1a1a', kind: 'figure' },
+    { title: 'Skechers Football', href: '#skechers', img: '/assets/works/5.jpg', w: 0.12, a: 1.32, bg: ['#7fb2dd', '#3d7a3d'], fg: '#1c1c1c', kind: 'figure' },
+    { title: 'Legia Warsaw', href: '#legia', img: '/assets/works/6.jpg', w: 0.115, a: 1.18, bg: ['#ff7a2a', '#7d1a0a'], fg: '#ffd7a0', kind: 'glow' },
+    { title: '125 Years of AFC Ajax', href: '#ajax', img: '/assets/works/Satoru Gojo_.jpg', w: 0.095, a: 1.0, bg: ['#c9b7a4', '#7a6a5c'], fg: '#e8e8e6', kind: 'figure' },
+    { title: 'Westkurve', href: '#westkurve', img: '/assets/works/1.jpg', w: 0.095, a: 1.05, bg: ['#47b6c4', '#1f5a7a'], fg: '#e9f6f8', kind: 'blocks' },
+    { title: 'NOVA x Beertjes', href: '#nova', img: '/assets/works/@m3rshy.jpg', w: 0.075, a: 1.3, bg: ['#5a7a4a', '#232b20'], fg: '#8a5cc2', kind: 'figure' },
+    { title: 'Como 1907', href: '#como', img: '/assets/works/2.jpg', w: 0.085, a: 1.2, bg: ['#bfd2dc', '#4c6f86'], fg: '#1c2e3d', kind: 'figure' },
+    { title: 'PSG', href: '#psg', img: "/assets/works/The Limitless Awoken_ Satoru Gojo's Six Eyes.jpg", w: 0.09, a: 0.82, bg: ['#0f4b9a', '#08224a'], fg: '#d9322f', kind: 'blocks' },
+    { title: 'Belgium', href: '#belgium', img: '/assets/works/3.jpg', w: 0.085, a: 1.25, bg: ['#d11f2e', '#7a0f18'], fg: '#f2c230', kind: 'figure' },
+    { title: 'Court Side', href: '#court', img: '/assets/works/5.jpg', w: 0.1, a: 0.82, bg: ['#0a0f1c', '#0c2a52'], fg: '#e8d2b4', kind: 'figure' },
+    { title: 'Centre Court', href: '#centre', img: '/assets/works/6.jpg', w: 0.095, a: 0.95, bg: ['#7a2a1e', '#2c0f0a'], fg: '#efe7d9', kind: 'figure' },
+    { title: 'Matchday Crew', href: '#crew', img: '/assets/works/Satoru Gojo_.jpg', w: 0.11, a: 0.7, bg: ['#2457b5', '#111c3d'], fg: '#f1c93b', kind: 'figure' },
+    { title: 'The Terrace', href: '#terrace', img: '/assets/works/1.jpg', w: 0.09, a: 1.4, bg: ['#e9e4dd', '#7d2a2a'], fg: '#171717', kind: 'figure' },
+    { title: 'Kit Drop 24', href: '#kit', img: '/assets/works/@m3rshy.jpg', w: 0.115, a: 1.2, bg: ['#f2f2f0', '#c7c9cc'], fg: '#e33a3a', kind: 'figure' },
+    { title: 'Night Game', href: '#night', img: '/assets/works/2.jpg', w: 0.1, a: 1.1, bg: ['#12141f', '#2b1e44'], fg: '#ff5d8f', kind: 'glow' },
+    { title: 'Pitch Side', href: '#pitch', img: '/assets/works/3.jpg', w: 0.105, a: 0.9, bg: ['#4f9b4a', '#1f4a2a'], fg: '#f4f4f4', kind: 'figure' },
+    { title: 'Studio Series', href: '#studio', img: '/assets/works/5.jpg', w: 0.115, a: 1.25, bg: ['#d8d2c6', '#8f8574'], fg: '#2a2a2a', kind: 'figure' },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -372,9 +372,9 @@ export default function GalleryPlay() {
                     }}
                 >
                     <div ref={ringRef} style={{ position: 'absolute', left: 0, top: 0, transformStyle: 'preserve-3d', willChange: 'transform' }}>
-                        {layout.map((c) => (
+                        {layout.map((c, i) => (
                             <a
-                                key={c.title}
+                                key={`${c.title}-${i}`}
                                 href={c.href}
                                 data-card=""
                                 draggable={false}
@@ -430,7 +430,7 @@ export default function GalleryPlay() {
             <a
                 href="#home"
                 className="gp-logo"
-                aria-label="Gallery Play"
+                aria-label="Gallery"
                 style={{
                     position: 'absolute',
                     left: '3.1vw',
@@ -469,7 +469,7 @@ export default function GalleryPlay() {
                     letterSpacing: '-0.01em',
                 }}
             >
-                Menu
+                We
             </a>
         </section>
     );
